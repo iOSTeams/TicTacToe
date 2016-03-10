@@ -21,16 +21,25 @@
                                 <rect key="frame" x="350" y="150" width="100" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.72390436729999996" blue="0.1861255661" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="topRightClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jwC-Nk-ayB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLn-68-EI2" userLabel="Top">
                                 <rect key="frame" x="250" y="150" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.75658644529999997" green="1" blue="0.83386242470000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="topClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nE8-ow-ppB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mb-6S-4jY" userLabel="Top-Left">
                                 <rect key="frame" x="150" y="150" width="100" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="topLeftClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f66-nQ-GD3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdA-OI-m3h" userLabel="Center">
                                 <rect key="frame" x="250" y="250" width="100" height="100"/>
@@ -40,31 +49,49 @@
                                     <constraint firstAttribute="height" constant="100" id="cyT-gH-CZ1"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="centerClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9qW-rr-UKm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQB-Xh-vrk" userLabel="Right">
                                 <rect key="frame" x="350" y="250" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="rightClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LFx-hs-aoj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KhM-jn-Dlm" userLabel="Bottom">
                                 <rect key="frame" x="250" y="350" width="100" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.47442013919999998" blue="0.91266865200000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="bottomClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N3q-zl-fbd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJz-Rg-uUp" userLabel="Bottom-Left">
                                 <rect key="frame" x="150" y="350" width="100" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.491182228" blue="0.33558998880000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="bottomLeftClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nak-bW-8wi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvG-Xh-ZAb" userLabel="Bottom-Right">
                                 <rect key="frame" x="350" y="350" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.31036409269999998" green="1" blue="0.31682193330000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="bottomRightClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="79X-md-ag1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPy-SJ-G6c" userLabel="Left">
                                 <rect key="frame" x="150" y="250" width="100" height="100"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="leftClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hch-aR-FEe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -105,6 +132,17 @@
                             <constraint firstItem="KhM-jn-Dlm" firstAttribute="width" secondItem="PPy-SJ-G6c" secondAttribute="width" id="xFh-FO-7HV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomButton" destination="KhM-jn-Dlm" id="012-Ca-jgu"/>
+                        <outlet property="bottomLeftButton" destination="WJz-Rg-uUp" id="eZy-6F-2k4"/>
+                        <outlet property="bottomRightButton" destination="cvG-Xh-ZAb" id="bwS-Pa-v3S"/>
+                        <outlet property="centerButton" destination="VdA-OI-m3h" id="uaL-DM-H7o"/>
+                        <outlet property="leftButton" destination="PPy-SJ-G6c" id="vev-kh-PLV"/>
+                        <outlet property="rightButton" destination="NQB-Xh-vrk" id="XIJ-dx-5FV"/>
+                        <outlet property="topButton" destination="YLn-68-EI2" id="vDa-eL-g7i"/>
+                        <outlet property="topLeftButton" destination="2mb-6S-4jY" id="Umj-1I-jdt"/>
+                        <outlet property="topRightButton" destination="uxm-19-iLu" id="e2K-7c-Zim"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
