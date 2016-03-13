@@ -95,14 +95,26 @@
                                     <action selector="resetClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vrf-5Y-w4P"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIC TAC TOE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEw-Zw-8Hi" userLabel="Title">
-                                <rect key="frame" x="250" y="0.0" width="100" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIC TAC TOE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEw-Zw-8Hi" userLabel="Title">
+                                <rect key="frame" x="150" y="0.0" width="300" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="7Vl-9z-ukH"/>
+                                    <constraint firstAttribute="width" constant="300" id="7Vl-9z-ukH"/>
                                     <constraint firstAttribute="height" constant="50" id="wn4-k6-eEY"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXB-9w-Ndt">
+                                <rect key="frame" x="0.0" y="50" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agT-47-118">
+                                <rect key="frame" x="0.0" y="529.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -134,9 +146,11 @@
                             <constraint firstItem="uxm-19-iLu" firstAttribute="height" secondItem="PPy-SJ-G6c" secondAttribute="height" id="ZXS-2u-NjL"/>
                             <constraint firstItem="WJz-Rg-uUp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="am8-GP-Ofe"/>
                             <constraint firstItem="WJz-Rg-uUp" firstAttribute="height" secondItem="PPy-SJ-G6c" secondAttribute="height" id="bpm-N5-YoC"/>
+                            <constraint firstAttribute="bottom" secondItem="agT-47-118" secondAttribute="bottom" constant="50" id="d6L-qH-PsO"/>
                             <constraint firstItem="YLn-68-EI2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="dMo-FM-X33"/>
                             <constraint firstItem="NQB-Xh-vrk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dMo-mo-gSp"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xus-Rk-DkH" secondAttribute="bottom" constant="50" id="eET-4u-QJP"/>
+                            <constraint firstItem="yXB-9w-Ndt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="f8S-58-MoQ"/>
                             <constraint firstItem="xus-Rk-DkH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fS6-di-YUi"/>
                             <constraint firstAttribute="bottom" secondItem="3fr-eJ-ExT" secondAttribute="bottom" id="khl-3q-ziM"/>
                             <constraint firstItem="3fr-eJ-ExT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kxm-fc-AQ4"/>
@@ -157,8 +171,10 @@
                         <outlet property="bottomLeftButton" destination="WJz-Rg-uUp" id="eZy-6F-2k4"/>
                         <outlet property="bottomRightButton" destination="cvG-Xh-ZAb" id="bwS-Pa-v3S"/>
                         <outlet property="centerButton" destination="VdA-OI-m3h" id="uaL-DM-H7o"/>
+                        <outlet property="firstScoreLabel" destination="yXB-9w-Ndt" id="zbd-dW-qNW"/>
                         <outlet property="leftButton" destination="PPy-SJ-G6c" id="vev-kh-PLV"/>
                         <outlet property="rightButton" destination="NQB-Xh-vrk" id="XIJ-dx-5FV"/>
+                        <outlet property="secondScoreLabel" destination="agT-47-118" id="F2i-Lx-8cm"/>
                         <outlet property="topButton" destination="YLn-68-EI2" id="vDa-eL-g7i"/>
                         <outlet property="topLeftButton" destination="2mb-6S-4jY" id="Umj-1I-jdt"/>
                         <outlet property="topRightButton" destination="uxm-19-iLu" id="e2K-7c-Zim"/>
